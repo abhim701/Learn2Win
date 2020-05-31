@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Simple file upload using Python Flask</title>
+    </head>
+    <body>
+        <form action="/handleUpload" method="post" enctype="multipart/form-data">
+            Choose the file: <input type="file" name="photo"/><BR>
+                <input type="submit" value="Upload"/>
+        </form>
+
+        <form action="/handleDetect" method="post" enctype="multipart/form-data">
+            Detect Object: <input type="submit" value="Upload"/>
+        </form>
+
+
+
+
+        <a href=""/your_flask_funtion"><input type="button" value="Run Object Detector"></a>
+
+    </body>
+</html>
